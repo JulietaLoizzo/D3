@@ -1,9 +1,8 @@
 const nombreProducto = "Macetas";
-const precioUnitario = 1200; // Cambiado a un número
+const precioUnitario = 1200; 
 
 let cantidadDeseada = prompt(`Ingrese la cantidad de ${nombreProducto} que desea comprar:`);
-cantidadDeseada = parseInt(cantidadDeseada); // Asignando el resultado de parseInt
-
+cantidadDeseada = parseInt(cantidadDeseada); 
 if (isNaN(cantidadDeseada) || cantidadDeseada <= 0) {
   alert("Debe ingresar un número válido mayor a cero.");
 } else {
